@@ -11,5 +11,5 @@ app.on('ready', function() {
     width: 800
   });
 
-  mainWindow.loadUrl('file://' + __dirname + '/app/index.html');
+  mainWindow.loadUrl('file://' + __dirname + '/target/index.html');
 });

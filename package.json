@@ -4,12 +4,18 @@
   "description": "GM screen",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "test": "mocha --recursive",
+    "start": "nf start"
   },
   "author": "Devon Noel de Tilly",
   "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^0.37.6"
+    "chai": "^3.5.0",
+    "electron-prebuilt": "^0.37.6",
+    "foreman": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "mocha": "^2.4.5"
   }
 }

@@ -1,0 +1,2 @@
+gulp: gulp
+app: electron .
